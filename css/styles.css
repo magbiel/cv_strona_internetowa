@@ -1,0 +1,205 @@
+﻿/* color legend */
+/* reset */
+html, body
+ { margin:0;border:0; padding:0; font-size:10px;background:transparent }	
+div, span, article, aside, footer, header, hgroup, nav, section, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, table, tr, th, td, tbody, tfoot, thead
+ { margin:0;border:0; padding:0; vertical-align:baseline; background:transparent } 	
+img
+{ margin:0;border:0; padding:0 }
+
+table, tr, th, td, tbody, tfoot, thead
+{ margin:0;border:0; padding:0 }
+
+table: {border-collapse: callopse; border-spacing: 0;}
+
+input, select, textarea, form, fieldset	{margin:0;border:0; padding:0;}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, th, th, a, caption, em, strong, strike {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	line-height:100%;
+	text-indent:0;
+	text-decoration:none;
+	text-align:left;
+	color:black;
+	}
+
+ol, ul {list-style:none}
+
+/* global */
+
+html {}
+body {background-image:url('../imagine/background-1130494.jpg');}
+
+/*Headings*/
+
+h1, h2, h3, h4, h5, h6 {font-weight:bold; color:black}
+
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:14px; }
+h6 { font-size:14px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin: 0;}
+
+/*Text Element*/
+
+p		{color:black; font-size:12px; line-height:150%}
+p .left {margin: 1.5em 1.5 em 1.5 em 0; padding: 0;}
+p .right{margin: 1.5em 1.5 em 1.5 em 0; padding: 0;}
+
+a			{ }
+a:link		{color: #00f;}
+a:visited	{color:#0f0;}
+a:active	{color:#000;}
+a:focus		{color:666;}
+a:hover		{color:#f00;}
+
+blockquote 	{color:black;	font-size:12px;}
+
+strong	{font-weight:bold;}
+em		{font-style:italic;}
+
+/*Images*/
+
+
+/*Lists*/
+
+ul		{ }
+ol		{list-style-type:decimal;}
+
+ul li	{color:black; font-size:12px;}	
+ol li	{color:black; font-size:12px;}
+
+dl		{ }
+dt		{ } 
+dd		{ }
+
+/* Tables */
+
+table	{width:100%}
+
+tr		{ }
+.odd	{background-color:#eee; }
+.even	{background-color:#fff; }
+
+th			{font-weight:bold;}
+thead, th	{background:#ccc}
+
+tbody			{ }
+
+th, td, caption	{ }
+caption			{ }
+
+tfoot		{ }
+.tfooter	{background-color:#ccc; text-align:center;	font-style:italic;}
+
+caption		{background:#efefef;}
+
+
+/* Containers */
+
+#wrapper {width:900px; margin:10px auto; background:white;}
+
+#top {background-color:white; width:100%; padding:10px 0; overflow:hidden; }
+
+#logo {margin:0px 0px 0px 10px; float:left; padding-top:20px;}
+
+#contact-icon img {width :65px; height:65px;}
+#contact-icon {float:right; padding-right:20px; padding-left:22px}
+
+#podlogo {float:right; padding-right:10px}
+
+#top-nav {background-color:#999999; clear:both; margin:10px 0 30px 0; }
+#top-nav ul { background-color:#999999; width:100%;text-align:center; padding:15px 0px}
+#top-nav ul li {display:inline; width:auto; }
+#top-nav ul li a {font-size:16px; font-style:normal; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; padding:15px;   }
+	#top-nav a:link {color:white}
+	#top-nav a:visited {color:white}
+	#top-nav a:active {color:white}
+	#top-nav a:hover {color:#FF9900; font-weight:bolder; background-color:white}
+	#top-nav a:focus {color:white}
+
+
+
+#content, work, contact, education, additional {clear:both; margin:0px auto}
+
+#content h1 {width:100%; margin:40px 0 30px 0; text-align:center; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:30px; font-weight:bold;}
+#content p {width:100%; margin:0 0 20px 0; text-align:center;line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:20px; font-weight:normal;}
+
+
+#contact ul {width:100%; margin:50px 0 30px 0; text-align:center; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:30px; font-weight:bold;}
+#contact ul li {width:100%; margin:0 0 20px 0; text-align:center;line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:20px; font-weight:normal;}
+
+
+#education h2 {width:100%; margin:0px 0; text-align:center; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:25px; font-weight:bold;}
+#education p {width:100%; margin:0 0 20px 0; text-align:center;line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:18px; font-weight:normal;}
+
+
+#work h2 {width:100%; margin:20px 0px 0px 0px; text-align:center; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:25px; font-weight:bold;}
+#work p {width:100%; margin:0px auto; text-align:center;line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:18px; font-weight:normal;}
+#work ul {margin:10px; clear:both; width:100%}
+#work ul li {text-align:center; width:auto; line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:15px; font-weight:normal}
+
+
+#additional h2 {width:100%; margin:20px 0px 0px 0px; text-align:center; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:25px; font-weight:bold;}
+#additional p {width:100%; margin:0 0 10px 0; text-align:center;line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:18px; font-weight:normal;}
+#additional ul li {text-align:center; width:auto; line-height:180%; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; font-style:normal; font-size:15px; font-weight:normal}
+
+
+#footer {background-color:black; clear:both; margin:50px 0 0 0;}
+#footer ul {background-color:black;	width:100%; text-align:center; padding:5px 0; font-size:11px}
+#footer ul li {display:inline; margin:0 15px 0 15px; width:auto; color:white; font-size:11px; font-style:normal; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; }
+#footer ul li a {font-size:11px; font-style:normal; font-family:"Bahnschrift Light", Arial, Helvetica, sans-serif; }
+	#footer a:link {color:white}
+	#footer a:visited {color:white}
+	#footer a:active {color:white}
+	#footer a:hover {color:#FF9900; font-weight:bolder;}
+	#footer a:focus {color:white}
+	
+
+
+
+#box1	{ }
+
+#box2	{ }	
+
+#box3	{ }	
+
+#box4	{ }
+
+#box5	{ }
+
+#box6	{ }
+
+/* Layout Extra */
+
+/* Navigation Extra */
+
+/* Forms */
+
+form {text-align:left; margin:20px;}
+
+label, submit, input, textarea {border:0; padding:0; margin:0; background:none;}
+
+label {float:left; width:150px; text-align:right;display:block;}
+
+input, textarea	{border:1px #333 solid; margin:10px;}
+
+input	{width:280px; margin-bottom:16px;}
+
+textarea {width:280px; height:150px; margin-bottom:16px;}
+
+select { }
+
+.submit {width:90px; height:25px; margin-left:150px; font-size:12ps;}
+
+br {clear:left;}
+
+
